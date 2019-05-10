@@ -46,6 +46,10 @@
 		7F612AD61D7F13B800B93BC5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7F612AD51D7F13B800B93BC5 /* Assets.xcassets */; };
 		7F612AD91D7F13B800B93BC5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F612AD71D7F13B800B93BC5 /* LaunchScreen.storyboard */; };
 		7FB791EC1D7F1BB600789D53 /* Action.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE73AD201CDCD101006F8B98 /* Action.framework */; };
+		A21D723D2285630B00EC9CC4 /* RxCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A21D723C2285630B00EC9CC4 /* RxCocoa.framework */; };
+		A22B24302285627500494BA9 /* RxCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A22B242F2285627500494BA9 /* RxCocoa.framework */; };
+		A22B24312285628400494BA9 /* RxCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C41CE72722283BEE0006E722 /* RxCocoa.framework */; };
+		A22B2433228562A100494BA9 /* RxCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A22B2432228562A100494BA9 /* RxCocoa.framework */; };
 		C41CE71F22283BBA0006E722 /* Nimble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C41CE71A22283BB90006E722 /* Nimble.framework */; };
 		C41CE72022283BBA0006E722 /* RxBlocking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C41CE71B22283BB90006E722 /* RxBlocking.framework */; };
 		C41CE72122283BBA0006E722 /* Quick.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C41CE71C22283BB90006E722 /* Quick.framework */; };
@@ -132,6 +136,9 @@
 		7F612AD51D7F13B800B93BC5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7F612AD81D7F13B800B93BC5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7F612ADA1D7F13B800B93BC5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A21D723C2285630B00EC9CC4 /* RxCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxCocoa.framework; path = Carthage/Build/iOS/RxCocoa.framework; sourceTree = "<group>"; };
+		A22B242F2285627500494BA9 /* RxCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxCocoa.framework; path = Carthage/Build/tvOS/RxCocoa.framework; sourceTree = "<group>"; };
+		A22B2432228562A100494BA9 /* RxCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxCocoa.framework; path = Carthage/Build/watchOS/RxCocoa.framework; sourceTree = "<group>"; };
 		BE73AD201CDCD101006F8B98 /* Action.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Action.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C41CE71A22283BB90006E722 /* Nimble.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Nimble.framework; path = Carthage/Build/iOS/Nimble.framework; sourceTree = "<group>"; };
 		C41CE71B22283BB90006E722 /* RxBlocking.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxBlocking.framework; path = Carthage/Build/iOS/RxBlocking.framework; sourceTree = "<group>"; };
@@ -162,6 +169,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C41CE73B22283CD00006E722 /* RxSwift.framework in Frameworks */,
+				A22B24302285627500494BA9 /* RxCocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -170,6 +178,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C41CE73C22283CF90006E722 /* RxSwift.framework in Frameworks */,
+				A22B24312285628400494BA9 /* RxCocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -178,6 +187,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C41CE74122283D220006E722 /* RxSwift.framework in Frameworks */,
+				A22B2433228562A100494BA9 /* RxCocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -220,6 +230,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C41CE73622283CAD0006E722 /* RxSwift.framework in Frameworks */,
+				A21D723D2285630B00EC9CC4 /* RxCocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -299,6 +310,9 @@
 		7F5E6A5C1D7F06C4000B6076 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				A22B242F2285627500494BA9 /* RxCocoa.framework */,
+				A22B2432228562A100494BA9 /* RxCocoa.framework */,
+				A21D723C2285630B00EC9CC4 /* RxCocoa.framework */,
 				C41CE73922283CD00006E722 /* RxSwift.framework */,
 				C41CE73F22283D220006E722 /* RxSwift.framework */,
 				C41CE72922283BEE0006E722 /* Nimble.framework */,
